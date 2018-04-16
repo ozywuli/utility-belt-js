@@ -4,7 +4,9 @@
   "description": "",
   "main": "woohausUtilityBelt.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/ozywuli/woohaus-utility-belt/issues"
   },
-  "homepage": "https://github.com/ozywuli/woohaus-utility-belt#readme"
+  "homepage": "https://github.com/ozywuli/woohaus-utility-belt#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
