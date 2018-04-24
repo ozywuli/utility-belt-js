@@ -21,7 +21,9 @@ export default function ToggleMap(userOptions) {
     };
     this.toggleEvent = (map, cb) => {
         this.toggle(map);
-        cb();
+        if (cb) {
+            cb();
+        }
     };
     this.toggle = (map, cb) => {
         if (!this.isToggled) {

@@ -1,10 +1,11 @@
 {
   "name": "woohaus-utility-belt",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "dist",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "babel src -d lib --watch",
     "build": "babel src -d lib",
     "prepublish": "npm run build"
   },
