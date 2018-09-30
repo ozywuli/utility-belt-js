@@ -1,4 +1,4 @@
-# Woohaus Utility Belt
+# Utility Belt JS
 
 # Watch
 `npm run watch`

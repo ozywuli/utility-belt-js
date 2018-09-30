@@ -1,5 +1,5 @@
 {
-  "name": "woohaus-utility-belt",
+  "name": "utility-belt-js",
   "version": "0.0.5",
   "description": "",
   "main": "dist",
@@ -16,9 +16,9 @@
   "author": "@ozywuli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ozywuli/woohaus-utility-belt/issues"
+    "url": "https://github.com/ozywuli/utility-belt-js/issues"
   },
-  "homepage": "https://github.com/ozywuli/woohaus-utility-belt#readme",
+  "homepage": "https://github.com/ozywuli/utility-belt-js#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-polyfill": "^6.26.0",
