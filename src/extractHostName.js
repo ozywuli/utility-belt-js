@@ -1,4 +1,4 @@
-function extractHostname(url) {
+function extractHostName(url) {
     var hostname;
     //find & remove protocol (http, ftp, etc.) and get hostname
 

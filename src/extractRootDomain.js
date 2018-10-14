@@ -1,7 +1,7 @@
 import extractHostName from './extractHostName';
 
 function extractRootDomain(url) {
-    var domain = extractHostname(url),
+    var domain = extractHostName(url),
         splitArr = domain.split('.'),
         arrLen = splitArr.length;
 
@@ -17,3 +17,5 @@ function extractRootDomain(url) {
     }
     return domain;
 }
+
+export default extractRootDomain;
